@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Contacto</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <nav>
+    <a href="../index.html">Inicio</a> |
+    <a href="../seccion1/index.html">Ilustraciones</a> |
+    <a href="../seccion2/index.html">Videos</a> |
+    <a href="../formulario/index.html">Formulario</a>
+  </nav>
+  
+  <h1>Formulario de Contacto</h1>
+  <form method="get" action="">
+    <p>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required autofocus>
+    </p>
+
+    <p>
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+    </p>
+
+    <p>
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono">
+    </p>
+
+    <p>
+      <label for="fecha">Fecha de nacimiento:</label>
+      <input type="date" id="fecha" name="fecha">
+    </p>
+
+    <p>
+      <label for="mensaje">Mensaje:</label><br>
+      <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje aquí..." required></textarea>
+    </p>
+
+    <p>
+      <input type="submit" value="Enviar">
+    </p>
+  </form>
+
+</body>
+</html>
